@@ -14,11 +14,11 @@ The Boggle Solver can be considered as a type of NP problem so it cannot be solv
 
 
 Comparison
-Time complexity	(Comparison in the dictionary) 				
-Boggle Traversal - O(n*n)	 
-Brute Force	 -  O(n)	
-Binary Search	 - O(logn)
-Trie  - Building the tree O(W*L)
+### Time complexity	(Comparison in the dictionary) 				
+#### Boggle Traversal - O(n*n)	 
+#### Brute Force	 -  O(n)	
+#### Binary Search	 - O(logn)
+#### Trie  - Building the tree O(W*L)
           where W=number or words
           L max length of word in a dictionary
           Searching depends on prefix of word length
