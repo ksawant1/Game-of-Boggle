@@ -1,0 +1,40 @@
+prepareDictionary()
+{
+   	 create Dictionary & sort it lexicographically
+}
+
+
+bool BinarySearchCheck(String current)
+{
+     if current becomes empty return true
+     middleString = dictionary[dictionary.length/2+ dictionary.length%2]
+     compare 1st char of current to 1st char of middleString 
+     if they match, recursively check for next char
+     if 1st char of middleString is lexicographically smaller, check recursively to the right
+     else check recursively to left of middle string
+     return false // current not part of dictionary
+}
+
+neighbour_list_pairs getNeighbours(int row, int col)
+{  
+     //return  all neighbour pairs for given row,col
+}
+void findWords( String current ,row,column) 
+{
+	    BinarySearchCheck(current) if string is part of dictionary, is yes add it to result
+      for each neighbour pairs from getNeighbours(row,column)
+      {
+            mark neighbour  as visited
+            current + append neighbour char to current
+            recursive call findWords(current ,neighbour_row, neighbour_column)
+            remove last char from current
+          	mark it unvisited
+      	}
+}
+int main()
+{
+      	prepareDictionary()
+      	gothrough each cell(i, j) and call findWords(emptystring ,i, j)
+      	return 0
+}
+
