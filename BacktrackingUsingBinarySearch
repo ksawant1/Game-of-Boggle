@@ -1,3 +1,6 @@
+
+//Pseudo Code
+
 prepareDictionary()
 {
    	 create Dictionary & sort it lexicographically
