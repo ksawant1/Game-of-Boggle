@@ -15,18 +15,18 @@ The Boggle Solver can be considered as a type of NP problem so it cannot be solv
 
 Comparison
 ### Time complexity	(Comparison in the dictionary) 				
-#### Boggle Traversal - O(n*n)	 
-#### Brute Force	 -  O(n)	
-#### Binary Search	 - O(logn)
-#### Trie  - Building the tree O(W*L)
+ * Boggle Traversal - O(n*n)	 
+ * Brute Force	 -  O(n)	
+ * Binary Search	 - O(logn)
+ * Trie  - Building the tree O(W*L)
           where W=number or words
           L max length of word in a dictionary
           Searching depends on prefix of word length
 
-Run Time
-Brute Force	 - 19025841 ms	
-Binary Search	 - 4852293 ms	
-Trie  -  5874 ms	
+#### Run Time
+ * Brute Force	 - 19025841 ms	
+ * Binary Search	 - 4852293 ms	
+ * Trie  -  5874 ms	
 
-Space Complexity for all Structures - n^2
+#### Space Complexity for all Structures - n^2
 
