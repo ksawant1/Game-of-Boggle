@@ -1,0 +1,26 @@
+//Pseudo Code
+
+neighbour_list_pairs getNeighbours(row, col)
+{  
+  	//return  all neighbour pairs for given row,col
+}
+
+void findWords( current, row, col ) 
+{
+    LinearSearchCheck if string is part of dictionary, is yes add it to result
+    for each neighbour pairs from getNeighbours(row, col)
+    {
+  	     mark neighbour  as visited
+         current + append neighbour char to current
+   	     recursive call findWords(current,neighbour_row, neighbour_column)
+  	     remove last char from current
+         mark it unvisited
+	  }
+ }
+ 
+ main()
+ {
+     createboggleboard()
+     createDictionary()
+     gothrough each cell(i, j) in the dictionary and call the function findWords(emptystring,i, j) by passing the current string of the board
+  }
